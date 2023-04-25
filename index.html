@@ -14,43 +14,51 @@
 
 </head>
 <body>
+    <!-- Heading -->
   <h1 class="text-3xl font-bold underline text-center">
     Calc-U-Later
   </h1>
 
-  <div class="container flex flex-col w-auto justify-center items-center">
+  <!-- Calculator Container -->
 
-    <div class="screen">
+  <div class="container flex flex-col justify-center items-center bg-slate-400 rounded">
+
+    <!-- Screen/Input -->
+
+    <div class="screen p-5">
         <input class="input" type="text">
     </div>
 
-    <div class="row">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button class="button">x</button>
+    <!-- All Buttons -->
+    <div class="buttons ">
+        <div class="row flex bg-slate-800">
+            <button class="button text-white p-5">7</button>
+            <button class="button text-white p-5">8</button>
+            <button class="button text-white p-5">9</button>
+            <button class="button text-white p-5">x</button>
+        </div>
+
+        <div class="row bg-slate-700">
+            <button class="button text-white p-5">4</button>
+            <button class="button text-white p-5">5</button>
+            <button class="button text-white p-5">6</button>
+            <button class="button text-white p-5">-</button>
+        </div>
+        <div class="row bg-slate-600">
+            <button class="button text-white p-5">1</button>
+            <button class="button text-white p-5">2</button>
+            <button class="button text-white p-5">3</button>
+            <button class="button text-white p-5">+</button>
+        </div>
+
+        <div class="row bg-slate-500">
+            <button class="button text-white p-5">+/-</button>
+            <button class="button text-white p-5">0</button>
+            <button class="button text-white p-5">.</button>
+            <button class="button text-white p-5">=</button>
+        </div>
     </div>
 
-    <div class="row">
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button">-</button>
-    </div>
-    <div class="row">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button">+</button>
-    </div>
-
-    <div class="row">
-        <button class="button">+/-</button>
-        <button class="button">0</button>
-        <button class="button">.</button>
-        <button class="button">=</button>
-    </div>
-    
   </div>
 
 
